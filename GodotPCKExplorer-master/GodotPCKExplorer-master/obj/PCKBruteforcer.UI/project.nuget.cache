@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "IJYpeb8QnocrARmiSO01Ghi6sccwMYl6ru2VPmhG6idPAdtQhb4JCusf4StSlG5vz9pMdWoa10nnkeR+RmQyBw==",
+  "success": true,
+  "projectFilePath": "/project/sandbox/user-workspace/GodotPCKExplorer-master/GodotPCKExplorer-master/Bruteforcer/UI/PCKBruteforcer.UI.csproj",
+  "expectedPackageFiles": [
+    "/root/.nuget/packages/microsoft.netcore.app.runtime.win-x64/8.0.3/microsoft.netcore.app.runtime.win-x64.8.0.3.nupkg.sha512",
+    "/root/.nuget/packages/microsoft.windowsdesktop.app.ref/8.0.3/microsoft.windowsdesktop.app.ref.8.0.3.nupkg.sha512",
+    "/root/.nuget/packages/microsoft.windowsdesktop.app.runtime.win-x64/8.0.3/microsoft.windowsdesktop.app.runtime.win-x64.8.0.3.nupkg.sha512",
+    "/root/.nuget/packages/microsoft.aspnetcore.app.runtime.win-x64/8.0.3/microsoft.aspnetcore.app.runtime.win-x64.8.0.3.nupkg.sha512",
+    "/root/.nuget/packages/microsoft.netcore.app.host.win-x64/8.0.3/microsoft.netcore.app.host.win-x64.8.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
