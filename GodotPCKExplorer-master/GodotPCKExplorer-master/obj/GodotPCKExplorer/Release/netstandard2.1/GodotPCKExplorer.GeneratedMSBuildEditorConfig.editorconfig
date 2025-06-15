@@ -1,0 +1,5 @@
+is_global = true
+build_property.RootNamespace = GodotPCKExplorer
+build_property.ProjectDir = /project/sandbox/user-workspace/GodotPCKExplorer-master/GodotPCKExplorer-master/Core/GodotPCKExplorer/
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
