@@ -1,0 +1,124 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "GodotPCKExplorer/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "compile": {
+          "bin/placeholder/GodotPCKExplorer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/GodotPCKExplorer.dll": {}
+        }
+      }
+    },
+    "net8.0/win-x64": {
+      "GodotPCKExplorer/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "compile": {
+          "bin/placeholder/GodotPCKExplorer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/GodotPCKExplorer.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "GodotPCKExplorer/1.0.0": {
+      "type": "project",
+      "path": "../../Core/GodotPCKExplorer/GodotPCKExplorer.csproj",
+      "msbuildProject": "../../Core/GodotPCKExplorer/GodotPCKExplorer.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "GodotPCKExplorer >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/root/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/project/sandbox/user-workspace/GodotPCKExplorer-master/GodotPCKExplorer-master/Bruteforcer/PCKBruteforcer/PCKBruteforcer.csproj",
+      "projectName": "PCKBruteforcer",
+      "projectPath": "/project/sandbox/user-workspace/GodotPCKExplorer-master/GodotPCKExplorer-master/Bruteforcer/PCKBruteforcer/PCKBruteforcer.csproj",
+      "packagesPath": "/root/.nuget/packages/",
+      "outputPath": "/project/sandbox/user-workspace/GodotPCKExplorer-master/GodotPCKExplorer-master/obj/PCKBruteforcer/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/root/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {
+            "/project/sandbox/user-workspace/GodotPCKExplorer-master/GodotPCKExplorer-master/Core/GodotPCKExplorer/GodotPCKExplorer.csproj": {
+              "projectPath": "/project/sandbox/user-workspace/GodotPCKExplorer-master/GodotPCKExplorer-master/Core/GodotPCKExplorer/GodotPCKExplorer.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreLockProperties": {
+        "restorePackagesWithLockFile": "true"
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Runtime.win-x64",
+            "version": "[8.0.3, 8.0.3]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Runtime.win-x64",
+            "version": "[8.0.3, 8.0.3]"
+          }
+        ],
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.203/PortableRuntimeIdentifierGraph.json"
+      }
+    },
+    "runtimes": {
+      "win-x64": {
+        "#import": []
+      }
+    }
+  }
+}
