@@ -1,0 +1,209 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0-windows7.0": {
+      "GodotPCKExplorer/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "compile": {
+          "bin/placeholder/GodotPCKExplorer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/GodotPCKExplorer.dll": {}
+        }
+      },
+      "PCKBruteforcer/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "GodotPCKExplorer": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/PCKBruteforcer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PCKBruteforcer.dll": {}
+        }
+      },
+      "PCKBruteforcer.Console/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "PCKBruteforcer": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/PCKBruteforcer.Console.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PCKBruteforcer.Console.dll": {}
+        }
+      }
+    },
+    "net8.0-windows7.0/win-x64": {
+      "GodotPCKExplorer/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "compile": {
+          "bin/placeholder/GodotPCKExplorer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/GodotPCKExplorer.dll": {}
+        }
+      },
+      "PCKBruteforcer/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "GodotPCKExplorer": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/PCKBruteforcer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PCKBruteforcer.dll": {}
+        }
+      },
+      "PCKBruteforcer.Console/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "PCKBruteforcer": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/PCKBruteforcer.Console.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PCKBruteforcer.Console.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "GodotPCKExplorer/1.0.0": {
+      "type": "project",
+      "path": "../../Core/GodotPCKExplorer/GodotPCKExplorer.csproj",
+      "msbuildProject": "../../Core/GodotPCKExplorer/GodotPCKExplorer.csproj"
+    },
+    "PCKBruteforcer/1.0.0": {
+      "type": "project",
+      "path": "../PCKBruteforcer/PCKBruteforcer.csproj",
+      "msbuildProject": "../PCKBruteforcer/PCKBruteforcer.csproj"
+    },
+    "PCKBruteforcer.Console/1.0.0": {
+      "type": "project",
+      "path": "../Console/PCKBruteforcer.Console.csproj",
+      "msbuildProject": "../Console/PCKBruteforcer.Console.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0-windows7.0": [
+      "GodotPCKExplorer >= 1.0.0",
+      "PCKBruteforcer >= 1.0.0",
+      "PCKBruteforcer.Console >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/root/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/project/sandbox/user-workspace/GodotPCKExplorer-master/GodotPCKExplorer-master/Bruteforcer/UI/PCKBruteforcer.UI.csproj",
+      "projectName": "PCKBruteforcer.UI",
+      "projectPath": "/project/sandbox/user-workspace/GodotPCKExplorer-master/GodotPCKExplorer-master/Bruteforcer/UI/PCKBruteforcer.UI.csproj",
+      "packagesPath": "/root/.nuget/packages/",
+      "outputPath": "/project/sandbox/user-workspace/GodotPCKExplorer-master/GodotPCKExplorer-master/obj/PCKBruteforcer.UI/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/root/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0-windows"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "projectReferences": {
+            "/project/sandbox/user-workspace/GodotPCKExplorer-master/GodotPCKExplorer-master/Bruteforcer/Console/PCKBruteforcer.Console.csproj": {
+              "projectPath": "/project/sandbox/user-workspace/GodotPCKExplorer-master/GodotPCKExplorer-master/Bruteforcer/Console/PCKBruteforcer.Console.csproj"
+            },
+            "/project/sandbox/user-workspace/GodotPCKExplorer-master/GodotPCKExplorer-master/Bruteforcer/PCKBruteforcer/PCKBruteforcer.csproj": {
+              "projectPath": "/project/sandbox/user-workspace/GodotPCKExplorer-master/GodotPCKExplorer-master/Bruteforcer/PCKBruteforcer/PCKBruteforcer.csproj"
+            },
+            "/project/sandbox/user-workspace/GodotPCKExplorer-master/GodotPCKExplorer-master/Core/GodotPCKExplorer/GodotPCKExplorer.csproj": {
+              "projectPath": "/project/sandbox/user-workspace/GodotPCKExplorer-master/GodotPCKExplorer-master/Core/GodotPCKExplorer/GodotPCKExplorer.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreLockProperties": {
+        "restorePackagesWithLockFile": "true"
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net8.0-windows7.0": {
+        "targetAlias": "net8.0-windows",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Runtime.win-x64",
+            "version": "[8.0.3, 8.0.3]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[8.0.3, 8.0.3]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Runtime.win-x64",
+            "version": "[8.0.3, 8.0.3]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[8.0.3, 8.0.3]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Runtime.win-x64",
+            "version": "[8.0.3, 8.0.3]"
+          }
+        ],
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WindowsForms": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.203/PortableRuntimeIdentifierGraph.json"
+      }
+    },
+    "runtimes": {
+      "win-x64": {
+        "#import": []
+      }
+    }
+  }
+}
