@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "PCKBruteforcer/1.0.0": {
+        "dependencies": {
+          "GodotPCKExplorer": "1.0.0"
+        },
+        "runtime": {
+          "PCKBruteforcer.dll": {}
+        }
+      },
+      "GodotPCKExplorer/1.0.0": {
+        "runtime": {
+          "GodotPCKExplorer.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "PCKBruteforcer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "GodotPCKExplorer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
