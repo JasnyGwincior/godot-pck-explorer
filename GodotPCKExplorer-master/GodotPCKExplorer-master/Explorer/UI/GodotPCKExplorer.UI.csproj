@@ -1,0 +1,79 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>WinExe</OutputType>
+		<TargetFramework>net8.0-windows</TargetFramework>
+		<RestorePackagesWithLockFile>true</RestorePackagesWithLockFile>
+		<UseWindowsForms>true</UseWindowsForms>
+		<EnableWindowsTargeting>true</EnableWindowsTargeting>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<ApplicationIcon>icon.ico</ApplicationIcon>
+		<Title>Godot PCK Explorer</Title>
+		<Product>GodotPCKExplorer</Product>
+		<PackageId>GodotPCKExplorer.UI</PackageId>
+		<Authors>Dmitriy Salnikov</Authors>
+		<Description>C# implementation of the Godot's PCK file format with the ability to export files from it and create new PCK packs,&#10;as well as giving several more useful features.</Description>
+		<Copyright>Copyright © 2025</Copyright>
+		<PackageProjectUrl>https://github.com/DmitriySalnikov/GodotPCKExplorer</PackageProjectUrl>
+		<PackageIcon>pckAbout.png</PackageIcon>
+		<RepositoryUrl>https://github.com/DmitriySalnikov/GodotPCKExplorer</RepositoryUrl>
+		<RepositoryType>git</RepositoryType>
+		<NeutralLanguage>en</NeutralLanguage>
+		<Version>1.0.0</Version>
+
+		<NoWarn>$(NoWarn);IDE1006</NoWarn>
+
+		<Platforms>AnyCPU</Platforms>
+	</PropertyGroup>
+
+	<Target Name="PreBuild" BeforeTargets="PreBuildEvent">
+		<ReadLinesFromFile File="..\..\version.txt">
+			<Output TaskParameter="Lines" PropertyName="Version" />
+		</ReadLinesFromFile>
+	</Target>
+
+	<ItemGroup>
+		<Compile Remove="bin\**" />
+		<Compile Remove="obj\**" />
+		<Compile Remove="publish\**" />
+		<EmbeddedResource Remove="bin\**" />
+		<EmbeddedResource Remove="obj\**" />
+		<EmbeddedResource Remove="publish\**" />
+		<None Remove="bin\**" />
+		<None Remove="obj\**" />
+		<None Remove="publish\**" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Compile Include="..\Console\ConsoleCommands.cs" Link="ConsoleCommands.cs" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\Console\GodotPCKExplorer.Console.csproj">
+			<Aliases>ConsoleProject,%(Aliases)</Aliases>
+		</ProjectReference>
+		<ProjectReference Include="..\..\Core\GodotPCKExplorer\GodotPCKExplorer.csproj" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Compile Update="Properties\Resources.Designer.cs">
+			<DesignTime>True</DesignTime>
+			<AutoGen>True</AutoGen>
+			<DependentUpon>Resources.resx</DependentUpon>
+		</Compile>
+	</ItemGroup>
+
+	<ItemGroup>
+		<EmbeddedResource Update="Properties\Resources.resx">
+			<Generator>ResXFileCodeGenerator</Generator>
+			<LastGenOutput>Resources.Designer.cs</LastGenOutput>
+		</EmbeddedResource>
+	</ItemGroup>
+
+	<ItemGroup>
+		<Using Include="GodotPCKExplorer.UI" />
+	</ItemGroup>
+
+	<Import Project="..\..\Core\Global.Shared\Global.Shared.projitems" Label="Shared" />
+
+</Project>
